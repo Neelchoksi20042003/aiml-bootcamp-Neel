@@ -1,0 +1,9 @@
+pytest
+black
+ruff
+mypy
+pre-commit
+numpy
+matplotlib
+ipykernel
+pandas
