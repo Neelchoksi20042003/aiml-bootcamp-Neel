@@ -1,0 +1,7 @@
+Model,CV R2 (mean),CV R2 (std),"Test R2 (final, once)"
+"Baseline (DummyRegressor, mean)",-0.0,0.0,not evaluated
+Plain LinearRegression (no scaling),0.611,0.012,not evaluated
+"Ridge (scaled, default alpha=1)",0.611,0.012,not evaluated
+"Lasso (scaled, default alpha=1)",-0.0,0.0,not evaluated
+Lasso tuned (LassoCV),0.611,0.012,0.577
+Ridge tuned (RidgeCV),0.606,0.018,not evaluated
